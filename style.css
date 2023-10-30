@@ -1,0 +1,44 @@
+/* Seletor global */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+}
+/* Seletor pela tag */
+p {
+  color: #f00;
+}
+main {
+  margin-top: 1rem;
+}
+/* Seletor pela classe */
+.paragrafo {
+    border: 1px solid #0ff;
+    color: #00f;
+    margin-top: 1rem;
+}
+/* Seletor pelop ID */
+#titulo {
+  color: green;
+  margin-bottom: 1rem;
+}
+/* seletor pelo atributo */
+input [type="password"] {
+  font-size: 3rem;
+}
+/* seletor por descedente */
+.login-form input {
+  font-size: 2rem;
+  color: red;
+}
+/* seletor de filhos diretos */
+
+.login-form > input {
+  color: #0f0;
+  width: 10rem
+}
+/* pseudo-classes */
+.cadastro-form div:nth-of-type(2) {
+  background:#00f;
+}
